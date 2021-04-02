@@ -85,6 +85,13 @@ public class Reception extends JFrame {
         b12.setBounds(10, 470, 200, 30);
         add(b12);
         
+        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("fourth.jpg"));
+        JLabel l1 = new JLabel(i1);
+        l1.setBounds(250, 30, 500, 500);
+        add(l1);
+        
+        getContentPane().setBackground(Color.WHITE);
+        
         
         
         setLayout(null);
